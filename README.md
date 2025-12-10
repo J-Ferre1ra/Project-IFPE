@@ -121,12 +121,15 @@ Esse padrão se encaixa perfeitamente porque o sistema exige variação de compo
 Certifique-se de que o Node está instalado.
 
 2. Inicie o projeto (caso ainda não tenha feito)
+````bash
 npm init -y
-
-3. Execute o sistema
+````
+4. Execute o sistema
+````bash
 node index.js
+````
 
-4. O sistema exibirá:
+6. O sistema exibirá:
 
 Usuários aceitos
 
