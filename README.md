@@ -29,6 +29,7 @@ O comportamento do sistema muda sem alterar o código principal, apenas trocando
 
 📌 2. APLICAÇÃO DOS QUATRO PILARES DA POO
 
+
 🔹 1. Abstração
 
 O projeto representa conceitos reais usando classes com responsabilidades claras:
@@ -40,6 +41,7 @@ UserManager → gerencia o cadastro e a validação
 Estratégias de validação (SimpleValidation, StrictValidation) → definem comportamentos específicos
 
 Cada classe possui apenas o necessário para cumprir sua função.
+
 
 🔹 2. Encapsulamento
 
@@ -60,6 +62,7 @@ setStrategy()
 
 Isso impede acesso indevido e garante segurança da lógica interna.
 
+
 🔹 3. Herança
 
 Embora o padrão Strategy não use herança clássica, ele aplica herança conceitual:
@@ -71,6 +74,7 @@ validate(user)
 
 Ou seja: formas diferentes da mesma ação, mantendo uma estrutura comum.
 Essa abordagem substitui herança tradicional e é amplamente utilizada em arquitetura moderna.
+
 
 🔹 4. Polimorfismo
 
@@ -89,6 +93,7 @@ Ambas possuem o método .validate(), mas cada uma executa de forma diferente.
 O código usa o mesmo comando para validar, mas o comportamento muda conforme a classe utilizada.
 
 Isso é polimorfismo.
+
 
 📌 3. PADRÃO DE PROJETO UTILIZADO: Strategy
 
@@ -113,6 +118,7 @@ SimpleValidation
 StrictValidation
 
 Esse padrão se encaixa perfeitamente porque o sistema exige variação de comportamento sem modificar sua estrutura.
+
 
 📌 4. COMO RODAR O SISTEMA
 
