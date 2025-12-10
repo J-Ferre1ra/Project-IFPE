@@ -6,7 +6,7 @@ Este projeto implementa um sistema simples de cadastro de usuários utilizando J
 
 O foco principal é demonstrar domínio prático de arquitetura, organização e POO.
 
-📌 1. DESCRIÇÃO DO SISTEMA
+## 📌 1. DESCRIÇÃO DO SISTEMA
 
 O sistema é um gerenciador de usuários, onde cada usuário possui:
 
@@ -27,10 +27,10 @@ StrictValidation → regras rígidas e completas
 
 O comportamento do sistema muda sem alterar o código principal, apenas trocando a estratégia utilizada — o que evidencia o uso correto do padrão Strategy.
 
-📌 2. APLICAÇÃO DOS QUATRO PILARES DA POO
+## 📌 2. APLICAÇÃO DOS QUATRO PILARES DA POO
 
 
-🔹 1. Abstração
+#### 🔹 1. Abstração
 
 O projeto representa conceitos reais usando classes com responsabilidades claras:
 
@@ -43,7 +43,7 @@ Estratégias de validação (SimpleValidation, StrictValidation) → definem com
 Cada classe possui apenas o necessário para cumprir sua função.
 
 
-🔹 2. Encapsulamento
+#### 🔹 2. Encapsulamento
 
 A classe UserManager protege seus dados internos:
 
@@ -63,7 +63,7 @@ setStrategy()
 Isso impede acesso indevido e garante segurança da lógica interna.
 
 
-🔹 3. Herança
+#### 🔹 3. Herança
 
 Embora o padrão Strategy não use herança clássica, ele aplica herança conceitual:
 
@@ -76,7 +76,7 @@ Ou seja: formas diferentes da mesma ação, mantendo uma estrutura comum.
 Essa abordagem substitui herança tradicional e é amplamente utilizada em arquitetura moderna.
 
 
-🔹 4. Polimorfismo
+#### 🔹 4. Polimorfismo
 
 O polimorfismo aparece quando o UserManager executa:
 
@@ -95,7 +95,7 @@ O código usa o mesmo comando para validar, mas o comportamento muda conforme a 
 Isso é polimorfismo.
 
 
-📌 3. PADRÃO DE PROJETO UTILIZADO: Strategy
+## 📌 3. PADRÃO DE PROJETO UTILIZADO: Strategy
 
 O padrão Strategy foi escolhido para resolver o seguinte problema:
 
@@ -120,7 +120,7 @@ StrictValidation
 Esse padrão se encaixa perfeitamente porque o sistema exige variação de comportamento sem modificar sua estrutura.
 
 
-📌 4. COMO RODAR O SISTEMA
+## 📌 4. COMO RODAR O SISTEMA
 
 1. Instale o Node.js
 
