@@ -1,6 +1,6 @@
-Projeto Final – Unidade 4
-Arquitetura de Software (POO + Design Pattern)
-Alunos: João Henrique, Maria Eduarda Bezerra e Jamison Viana
+# Projeto Final – Unidade 4
+## Arquitetura de Software (POO + Design Pattern)
+### Alunos: João Henrique, Maria Eduarda Bezerra e Jamison Viana
 
 Este projeto implementa um sistema simples de cadastro de usuários utilizando JavaScript/Node.js, aplicando de forma objetiva os quatro pilares da Programação Orientada a Objetos (Abstração, Encapsulamento, Herança e Polimorfismo) e o Padrão de Projeto Strategy.
 
@@ -28,6 +28,7 @@ StrictValidation → regras rígidas e completas
 O comportamento do sistema muda sem alterar o código principal, apenas trocando a estratégia utilizada — o que evidencia o uso correto do padrão Strategy.
 
 📌 2. APLICAÇÃO DOS QUATRO PILARES DA POO
+
 🔹 1. Abstração
 
 O projeto representa conceitos reais usando classes com responsabilidades claras:
@@ -114,6 +115,7 @@ StrictValidation
 Esse padrão se encaixa perfeitamente porque o sistema exige variação de comportamento sem modificar sua estrutura.
 
 📌 4. COMO RODAR O SISTEMA
+
 1. Instale o Node.js
 
 Certifique-se de que o Node está instalado.
