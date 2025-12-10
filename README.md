@@ -30,7 +30,7 @@ O comportamento do sistema muda sem alterar o código principal, apenas trocando
 ## 📌 2. APLICAÇÃO DOS QUATRO PILARES DA POO
 
 
-#### 🔹 1. Abstração
+### 🔹 1. Abstração
 
 O projeto representa conceitos reais usando classes com responsabilidades claras:
 
@@ -43,7 +43,7 @@ Estratégias de validação (SimpleValidation, StrictValidation) → definem com
 Cada classe possui apenas o necessário para cumprir sua função.
 
 
-#### 🔹 2. Encapsulamento
+### 🔹 2. Encapsulamento
 
 A classe UserManager protege seus dados internos:
 
@@ -63,7 +63,7 @@ setStrategy()
 Isso impede acesso indevido e garante segurança da lógica interna.
 
 
-#### 🔹 3. Herança
+### 🔹 3. Herança
 
 Embora o padrão Strategy não use herança clássica, ele aplica herança conceitual:
 
@@ -76,7 +76,7 @@ Ou seja: formas diferentes da mesma ação, mantendo uma estrutura comum.
 Essa abordagem substitui herança tradicional e é amplamente utilizada em arquitetura moderna.
 
 
-#### 🔹 4. Polimorfismo
+### 🔹 4. Polimorfismo
 
 O polimorfismo aparece quando o UserManager executa:
 
